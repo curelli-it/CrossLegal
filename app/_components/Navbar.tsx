@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 
-import logo from "@/app/_assets/logo.png";
+import logo from "@/public/assets/logo.png";
 
 export default function Navbar() {
   const [lastScrollY, setLastScrollY] = useState(0);
@@ -108,7 +108,7 @@ export default function Navbar() {
           </li>
         ))}
         <li className="hidden md:block">
-          <a href="/contactus">
+          <Link href="/contactus">
             <button className="flex justify-center items-center group">
               <div className="p-2 bg-white transform transition-transform duration-500 group-hover:bg-secondary rounded-tl-lg">
                 <svg
@@ -129,7 +129,7 @@ export default function Navbar() {
                 Contact Us
               </div>
             </button>
-          </a>
+          </Link>
         </li>
         <li className="md:hidden">
           <a href="/contactus">

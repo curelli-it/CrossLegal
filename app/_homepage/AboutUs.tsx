@@ -2,11 +2,11 @@
 import Image from "next/image";
 import React, { useState, useEffect, useRef } from "react";
 
-import lawfirm from "@/app/_assets/6.jpg";
-import team from "@/app/_assets/8.jpg";
 import Heading from "../_animations/Heading";
 import { phoneNo } from "@/lib/contacts";
 import Button from "../_animations/Button";
+import lawfirm from "@/public/assets/6.jpg";
+import team from "@/public/assets/8.jpg";
 
 export default function AboutUs() {
   const [isInView, setIsInView] = useState(false);

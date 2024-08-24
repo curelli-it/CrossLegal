@@ -2,9 +2,9 @@
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 
-import lawyer from "@/app/_assets/lawyerAbt.jpg";
-import justice from "@/app/_assets/justice.svg";
-import quote from "@/app/_assets/leftQuote.png";
+import lawyer from "@/public/assets/lawyerAbt.jpg";
+import justice from "@/public/assets/justice.svg";
+import quote from "@/public/assets/leftQuote.png";
 import Counter from "../_animations/Counter";
 
 export default function AboutUs() {
